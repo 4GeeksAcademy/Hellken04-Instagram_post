@@ -1,0 +1,49 @@
+body{
+    background: lightgray;
+    margin:0;
+    padding: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.page_header{
+	background: white;
+    padding: 10px;
+    text-align: center;
+}
+
+div.post{
+    background: white;
+    margin-top: 5px;
+}
+
+div.post h2,p {
+    padding: 5px;
+}
+
+div.post img{
+    width: 100%;
+}
+
+div.cuerpo{
+    width: 600px;
+    margin:auto;
+}
+
+div.post .titulo div:first-child{
+    display: inline-block;
+    width: 80%;
+    }
+
+div.post .titulo div:last-child{
+        display: inline-block;
+        width: 15%;
+        text-align: right;
+        color: gray;
+    }
+
+div.imagen{
+    background: white;
+}
