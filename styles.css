@@ -1,49 +1,64 @@
 body{
     background: lightgray;
-    margin:0;
-    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
 }
 
-div{
-    box-sizing: border-box;
-}
-
-.page_header{
-	background: white;
-    padding: 10px;
-    text-align: center;
-}
-
-div.post{
+.post{
+    width: 500px;
     background: white;
-    margin-top: 5px;
+    margin: auto;
 }
 
-div.post h2,p {
-    padding: 5px;
+.post-header{
+    display:flex;
 }
 
-div.post img{
+.post-header i {
+    font-size: 30px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:2px;
+    width: 40px;
+}
+.post-header p {
+    padding: 0px;
+    margin:0px;
+    width: 400px;
+}
+.post-header h3 {
+    padding: 1px;
+    margin:0px;
+}
+
+
+.post-img{
     width: 100%;
 }
 
-div.cuerpo{
-    width: 600px;
-    margin:auto;
+.post-body{
+    width: 98%;
+    margin: 1px;
+    padding: 5px;
+}
+.post-icons{
+    display:flex;
 }
 
-div.post .titulo div:first-child{
-    display: inline-block;
-    width: 80%;
-    }
+.post-icons i {
+    font-size: 30px;
+    margin:1px;
+    width: 50px;
+}
 
-div.post .titulo div:last-child{
-        display: inline-block;
-        width: 15%;
-        text-align: right;
-        color: gray;
-    }
-
-div.imagen{
-    background: white;
+.post-icons .izquierda {
+     width: 10%;
+}
+.post-icons .centro {
+    width: 60%;
+}
+.post-icons .derecha {
+    width: 10%;
 }
